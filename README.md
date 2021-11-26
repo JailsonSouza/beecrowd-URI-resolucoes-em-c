@@ -1,2 +1,2 @@
 # URI C
- Todas as questoes do URI na linguagem de programação C
+ Todas as questões do URI na linguagem de programação C
