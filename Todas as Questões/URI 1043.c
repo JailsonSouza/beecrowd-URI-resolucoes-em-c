@@ -2,7 +2,9 @@
 
 int main() {
     float n1, n2, n3;
+
     scanf("%f %f %f", &n1, &n2, &n3);
+    
     if (((n1+n2) > n3) && ((n2 + n3) > n1) && ((n1+n3)> n2)){
         float per;
         per = (n1+n2+n3);

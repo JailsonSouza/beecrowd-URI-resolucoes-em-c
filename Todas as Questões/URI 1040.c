@@ -13,9 +13,9 @@ int main() {
 
     if (media >= 7.0){
         printf("Aluno aprovado.\n");
-    }else if (media < 5.0){
+    } else if (media < 5.0){
         printf("Aluno reprovado.\n");
-    }else if ((media >= 5.0) && (media <= 6.9)){
+    } else if ((media >= 5.0) && (media <= 6.9)){
         printf("Aluno em exame.\n");
         scanf("%lf", &noEx);
         printf("Nota do exame: %.1lf\n", noEx);
@@ -23,7 +23,7 @@ int main() {
         medFinal = ((media + noEx) / 2);
         if (medFinal >= 5.0){
             printf("Aluno aprovado.\n");
-        }else if (medFinal <= 4.9){
+        } else if (medFinal <= 4.9){
             printf("Aluno reprovado.\n");
         }
         printf("Media final: %.1lf\n", medFinal);
