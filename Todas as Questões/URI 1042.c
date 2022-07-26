@@ -7,7 +7,7 @@ int main() {
     
     if ((n1 < n2) && (n1 < n3) && (n2 < n3)){
         printf("%d\n%d\n%d\n\n%d\n%d\n%d\n", n1, n2, n3, n1, n2, n3);
-    } else if((n1 < n2) && (n1 < n3) && (n3 > n2)){
+    } else if((n1 < n2) && (n1 < n3) && (n2 > n3)){
         printf("%d\n%d\n%d\n\n%d\n%d\n%d\n", n1, n3, n2, n1, n2, n3);
     } else if((n2 < n1) && (n2 < n3) && (n1 < n3)){
         printf("%d\n%d\n%d\n\n%d\n%d\n%d\n", n2, n1, n3, n1, n2, n3);
